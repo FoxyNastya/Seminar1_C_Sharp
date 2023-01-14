@@ -4,4 +4,10 @@
 // -3 -> 9 
 // -7 -> 49
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Введите число");
+string numberStr1 = Console.ReadLine();
+int a = Convert.ToInt32(numberStr1);
+
+int b = a*a;
+Console.WriteLine(b);
+
